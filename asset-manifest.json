@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/smart_grid/static/css/main.1fe4fa2e.css",
+    "main.js": "/smart_grid/static/js/main.69dfe1b5.js",
+    "static/js/787.f7b28ce5.chunk.js": "/smart_grid/static/js/787.f7b28ce5.chunk.js",
+    "static/media/logo.jpg": "/smart_grid/static/media/logo.5fae9c34f9835c0f1034.jpg",
+    "index.html": "/smart_grid/index.html",
+    "main.1fe4fa2e.css.map": "/smart_grid/static/css/main.1fe4fa2e.css.map",
+    "main.69dfe1b5.js.map": "/smart_grid/static/js/main.69dfe1b5.js.map",
+    "787.f7b28ce5.chunk.js.map": "/smart_grid/static/js/787.f7b28ce5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fe4fa2e.css",
+    "static/js/main.69dfe1b5.js"
+  ]
+}
