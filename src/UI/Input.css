@@ -1,0 +1,135 @@
+.form-input {
+display: inline-flex;
+justify-content:center;
+}
+.form-input{
+  position:relative;
+  width:fit-content;
+  margin:auto;
+  font-weight: normal;
+  display:inline-block;
+  padding:1rem;
+}
+.form-input input
+{
+  padding: 0.75rem;
+  align-items: center;
+ font-weight: 800;
+ background-color: ghostwhite;
+ }
+
+ .form-input input[type="password"]
+{
+  
+  align-items: center;
+ font-weight: 800;
+ background-color: ghostwhite;
+ }
+ .form-input input[type = "text"]
+ {
+   padding: 10px;
+   align-items: center;
+  font-weight: 800;
+  background-color: ghostwhite;
+  }
+  .form-input input[type = "email"]
+  {
+    padding: 10px;
+    align-items: center;
+   font-weight: 800;
+   background-color: ghostwhite;
+   }
+ .form-input label{
+  margin:1rem;
+  display:block;
+  font-size: 1.2rem;
+}
+ .form-input input{
+    margin:10px;
+    border: none;
+    border:solid rgba(223, 223, 223, 0.5) 0.1rem;
+    font:inherit;
+    border-radius : 0.2rem;
+    box-shadow: 0 0 1px 1px whitesmoke;
+    color:rgb(124, 122, 122);
+  }
+  .form-input input:focus{
+    border-collapse: separate;
+    outline:none;
+    box-shadow: 0 0 1px 1px whitesmoke;
+  }
+   .place-holder{
+    position: absolute;
+    margin:auto;
+    overflow: clip;
+    transition:0.15s;
+    font:inherit;
+    color:rgb(167, 163, 163);
+    transform: translate(2rem,1rem);
+    z-index: 1;
+  font-weight: bold;
+   }
+   .form-input .input-box{
+    position:relative;
+    display: inline-block;
+   }
+   .on-focus{
+    transform:translate(1.5rem,0rem);
+    font-size: 0.8em; 
+    padding:0.1rem 0.5rem;
+    color:darkgrey;
+  }
+  .plabel{
+    font-weight:bold;
+  }
+  .invalid{
+    border: solid rgb(255, 42, 0,0.1) 0.05rem !important;
+    box-shadow: 0 0 0.01rem 0.05rem rgb(251, 32, 12,0.8) inset !important;
+  }
+  @media(max-width:900)
+  {
+
+.form-input input
+{
+  padding: 5px;
+  align-items: center;
+  margin:5px;
+ font-weight: 800;
+ }
+  }
+  body {
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.select-wrapper {
+    background-color: #FFF;
+
+    display: inline-block;
+    position: relative;
+}
+.select-wrapper:after {
+    content:"\f078";
+    font-family:'FontAwesome';
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    z-index: 5;
+    pointer-events: none;
+ }
+select {
+    padding: 10px 40px 10px 10px;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color:rgb(252, 14, 141);
+    border: 1px solid rgb(237, 11, 79);
+    background-color: transparent;
+    border-radius: 0;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+select:hover{
+  opacity: 0.5;
+}
